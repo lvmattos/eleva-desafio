@@ -53,5 +53,5 @@ $> dotnet run
 
 
 Links:
-Portal - https://eleva-portal-escola-api.azurewebsites.net/
-API - https://eleva-portal-escola-api.azurewebsites.net/
+- Portal - https://eleva-portal-escola-api.azurewebsites.net/
+- API - https://eleva-portal-escola-api.azurewebsites.net/
