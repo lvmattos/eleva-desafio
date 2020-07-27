@@ -49,3 +49,9 @@ $> dotnet run
 - Arquitetura completa com preocupações de separação de responsabilidade, SOLID e Clean Code
 - Domain Driven Design (DDD)
 - Design Patterns - Repository, Unit of work, Dependency Injection;
+
+
+
+Links:
+Portal - https://eleva-portal-escola-api.azurewebsites.net/
+API - https://eleva-portal-escola-api.azurewebsites.net/
