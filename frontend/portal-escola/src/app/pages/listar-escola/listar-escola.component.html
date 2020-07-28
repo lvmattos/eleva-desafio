@@ -1,0 +1,18 @@
+<div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Identificador da escola</th>
+        <th scope="col">Nome</th>
+        <th scope="col">Endereço</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of escolaList">
+        <td>{{ item.escolaID }}</td>
+        <td>{{ item.nome }}</td>
+        <td>{{ item.endereco }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

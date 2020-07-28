@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{D2187CD6-B7C8-4A75-B260-4A7050657346}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{72BAB66B-6FD1-4E5D-84A4-6B5235047636}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{287662B6-D842-45DD-BAFB-58BEF8FCBBA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{DA567EE3-98C7-43DC-B0A3-6CB2AA9C7D39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0B0DF725-8663-4457-A95D-ABFB142C7883}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElevaEducacao.PortalEscola.CrossCutting.IoC", "ElevaEducacao.PortalEscola.CrossCutting.IoC\ElevaEducacao.PortalEscola.CrossCutting.IoC.csproj", "{EF9E732F-F5B2-4BF3-93CB-8B5B09BC4114}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevaEducacao.PortalEscola.Common", "ElevaEducacao.PortalEscola.Common\ElevaEducacao.PortalEscola.Common.csproj", "{945801CC-B8D9-4318-A404-277BA82214DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevaEducacao.PortalEscola.Application", "ElevaEducacao.PortalEscola.Application\ElevaEducacao.PortalEscola.Application.csproj", "{693B711D-AFFC-4E8F-A814-25052144A005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevaEducacao.PortalEscola.Domain", "ElevaEducacao.PortalEscola.Domain\ElevaEducacao.PortalEscola.Domain.csproj", "{A1592D1C-309D-4376-B50C-B3EE48DF7A25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevaEducacao.PortalEscola.DataAccess", "ElevaEducacao.PortalEscola.DataAccess\ElevaEducacao.PortalEscola.DataAccess.csproj", "{EB646055-6449-416B-B716-AF9BA7A68E02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevaEducacao.PortalEscola.Logger", "ElevaEducacao.PortalEscola.Logger\ElevaEducacao.PortalEscola.Logger.csproj", "{18132AF2-7A9D-41D9-B0BB-7492DBB3E88C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevaEducacao.PortalEscola.API", "ElevaEducacao.PortalEscola.API\ElevaEducacao.PortalEscola.API.csproj", "{F2336B81-EEF0-43E0-A995-88A0E997960D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF9E732F-F5B2-4BF3-93CB-8B5B09BC4114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF9E732F-F5B2-4BF3-93CB-8B5B09BC4114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF9E732F-F5B2-4BF3-93CB-8B5B09BC4114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF9E732F-F5B2-4BF3-93CB-8B5B09BC4114}.Release|Any CPU.Build.0 = Release|Any CPU
+		{945801CC-B8D9-4318-A404-277BA82214DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{945801CC-B8D9-4318-A404-277BA82214DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{945801CC-B8D9-4318-A404-277BA82214DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{945801CC-B8D9-4318-A404-277BA82214DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{693B711D-AFFC-4E8F-A814-25052144A005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{693B711D-AFFC-4E8F-A814-25052144A005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{693B711D-AFFC-4E8F-A814-25052144A005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{693B711D-AFFC-4E8F-A814-25052144A005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1592D1C-309D-4376-B50C-B3EE48DF7A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1592D1C-309D-4376-B50C-B3EE48DF7A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1592D1C-309D-4376-B50C-B3EE48DF7A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1592D1C-309D-4376-B50C-B3EE48DF7A25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB646055-6449-416B-B716-AF9BA7A68E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB646055-6449-416B-B716-AF9BA7A68E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB646055-6449-416B-B716-AF9BA7A68E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB646055-6449-416B-B716-AF9BA7A68E02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18132AF2-7A9D-41D9-B0BB-7492DBB3E88C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18132AF2-7A9D-41D9-B0BB-7492DBB3E88C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18132AF2-7A9D-41D9-B0BB-7492DBB3E88C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18132AF2-7A9D-41D9-B0BB-7492DBB3E88C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2336B81-EEF0-43E0-A995-88A0E997960D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2336B81-EEF0-43E0-A995-88A0E997960D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2336B81-EEF0-43E0-A995-88A0E997960D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2336B81-EEF0-43E0-A995-88A0E997960D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF9E732F-F5B2-4BF3-93CB-8B5B09BC4114} = {287662B6-D842-45DD-BAFB-58BEF8FCBBA1}
+		{945801CC-B8D9-4318-A404-277BA82214DE} = {D2187CD6-B7C8-4A75-B260-4A7050657346}
+		{693B711D-AFFC-4E8F-A814-25052144A005} = {72BAB66B-6FD1-4E5D-84A4-6B5235047636}
+		{A1592D1C-309D-4376-B50C-B3EE48DF7A25} = {72BAB66B-6FD1-4E5D-84A4-6B5235047636}
+		{EB646055-6449-416B-B716-AF9BA7A68E02} = {287662B6-D842-45DD-BAFB-58BEF8FCBBA1}
+		{18132AF2-7A9D-41D9-B0BB-7492DBB3E88C} = {287662B6-D842-45DD-BAFB-58BEF8FCBBA1}
+		{F2336B81-EEF0-43E0-A995-88A0E997960D} = {DA567EE3-98C7-43DC-B0A3-6CB2AA9C7D39}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF693B7C-8069-4CEB-B1DF-00866302B341}
+	EndGlobalSection
+EndGlobal

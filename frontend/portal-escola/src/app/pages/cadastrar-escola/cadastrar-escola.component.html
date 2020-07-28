@@ -1,0 +1,26 @@
+<form [formGroup]="form">
+  <div class="mb-1 mt-1">
+    <label class="font-weight-bold">Nome</label>
+    <input
+      type="text"
+      class="form-control form-control-sm"
+      formControlName="nome"
+    />
+  </div>
+  <div class="mb-1 mt-1">
+    <label class="font-weight-bold">Endereço</label>
+    <input
+      type="text"
+      class="form-control form-control-sm"
+      formControlName="endereco"
+    />
+  </div>
+  <div>
+    <button
+      (click)="salvarNovaEscola()"
+      class="mb-2 ml-2 border border-secondary btn btn-link mr-3"
+    >
+      Save
+    </button>
+  </div>
+</form>
