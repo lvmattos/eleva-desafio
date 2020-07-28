@@ -51,7 +51,4 @@ $> dotnet run
 - Design Patterns - Repository, Unit of work, Dependency Injection;
 
 
-
-Links:
-- Portal - https://eleva-portal-escola-api.azurewebsites.net/
-- API - https://eleva-portal-escola-api.azurewebsites.net/
+## API - https://eleva-portal-escola-api.azurewebsites.net/
